@@ -30,10 +30,6 @@
 		76F3ECC21ED692E80068F559 /* FSActionSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECA81ED692E80068F559 /* FSActionSheetItem.m */; };
 		76F3ECC31ED692E80068F559 /* FSActionSheet_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F3ECAA1ED692E80068F559 /* FSActionSheet_cancel@2x.png */; };
 		76F3ECC41ED692E80068F559 /* FSActionSheet_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76F3ECAB1ED692E80068F559 /* FSActionSheet_cancel@3x.png */; };
-		76F3ECC51ED692E80068F559 /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECAE1ED692E80068F559 /* TAAbstractDotView.m */; };
-		76F3ECC61ED692E80068F559 /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECB01ED692E80068F559 /* TAAnimatedDotView.m */; };
-		76F3ECC71ED692E80068F559 /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECB21ED692E80068F559 /* TADotView.m */; };
-		76F3ECC81ED692E80068F559 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECB41ED692E80068F559 /* TAPageControl.m */; };
 		76F3ECC91ED692E80068F559 /* XLPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECB61ED692E80068F559 /* XLPhotoBrowser.m */; };
 		76F3ECCA1ED692E80068F559 /* XLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECBA1ED692E80068F559 /* XLProgressView.m */; };
 		76F3ECCB1ED692E80068F559 /* XLZoomingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76F3ECBC1ED692E80068F559 /* XLZoomingScrollView.m */; };
@@ -84,14 +80,6 @@
 		76F3ECA81ED692E80068F559 /* FSActionSheetItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSActionSheetItem.m; sourceTree = "<group>"; };
 		76F3ECAA1ED692E80068F559 /* FSActionSheet_cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FSActionSheet_cancel@2x.png"; sourceTree = "<group>"; };
 		76F3ECAB1ED692E80068F559 /* FSActionSheet_cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FSActionSheet_cancel@3x.png"; sourceTree = "<group>"; };
-		76F3ECAD1ED692E80068F559 /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
-		76F3ECAE1ED692E80068F559 /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
-		76F3ECAF1ED692E80068F559 /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
-		76F3ECB01ED692E80068F559 /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
-		76F3ECB11ED692E80068F559 /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
-		76F3ECB21ED692E80068F559 /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
-		76F3ECB31ED692E80068F559 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
-		76F3ECB41ED692E80068F559 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
 		76F3ECB51ED692E80068F559 /* XLPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowser.h; sourceTree = "<group>"; };
 		76F3ECB61ED692E80068F559 /* XLPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoBrowser.m; sourceTree = "<group>"; };
 		76F3ECB71ED692E80068F559 /* XLPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoBrowserConfig.h; sourceTree = "<group>"; };
@@ -226,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				76F3ECA01ED692E80068F559 /* FSActionSheet */,
-				76F3ECAC1ED692E80068F559 /* PageControl */,
 			);
 			path = Vender;
 			sourceTree = "<group>";
@@ -254,21 +241,6 @@
 				76F3ECAB1ED692E80068F559 /* FSActionSheet_cancel@3x.png */,
 			);
 			path = FSActionSheetResources;
-			sourceTree = "<group>";
-		};
-		76F3ECAC1ED692E80068F559 /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-				76F3ECAD1ED692E80068F559 /* TAAbstractDotView.h */,
-				76F3ECAE1ED692E80068F559 /* TAAbstractDotView.m */,
-				76F3ECAF1ED692E80068F559 /* TAAnimatedDotView.h */,
-				76F3ECB01ED692E80068F559 /* TAAnimatedDotView.m */,
-				76F3ECB11ED692E80068F559 /* TADotView.h */,
-				76F3ECB21ED692E80068F559 /* TADotView.m */,
-				76F3ECB31ED692E80068F559 /* TAPageControl.h */,
-				76F3ECB41ED692E80068F559 /* TAPageControl.m */,
-			);
-			path = PageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,7 +370,6 @@
 				76F3ECBF1ED692E80068F559 /* FSActionSheet.m in Sources */,
 				76F3ECCB1ED692E80068F559 /* XLZoomingScrollView.m in Sources */,
 				7681E6461EF134BD009D159F /* UIButton+XLExtension.m in Sources */,
-				76F3ECC61ED692E80068F559 /* TAAnimatedDotView.m in Sources */,
 				5367ACAB1D3F85E100824A19 /* Test3ViewController.m in Sources */,
 				76F3ECBD1ED692E80068F559 /* UIImage+XLExtension.m in Sources */,
 				0252D4791DCB3DC300AC609E /* Test7ViewController.m in Sources */,
@@ -408,14 +379,11 @@
 				76F3ECC91ED692E80068F559 /* XLPhotoBrowser.m in Sources */,
 				76F3ECC11ED692E80068F559 /* FSActionSheetConfig.m in Sources */,
 				538DBCB71D3A1D7E00117463 /* ViewController.m in Sources */,
-				76F3ECC71ED692E80068F559 /* TADotView.m in Sources */,
 				538DBCB41D3A1D7E00117463 /* AppDelegate.m in Sources */,
 				5367ACAE1D3F874000824A19 /* BaseTestViewController.m in Sources */,
 				0252D4761DCB35B200AC609E /* Test6ViewController.m in Sources */,
 				76F3ECC21ED692E80068F559 /* FSActionSheetItem.m in Sources */,
-				76F3ECC81ED692E80068F559 /* TAPageControl.m in Sources */,
 				531670D81D3B867F00CAB008 /* Test2ViewController.m in Sources */,
-				76F3ECC51ED692E80068F559 /* TAAbstractDotView.m in Sources */,
 				538DBCB11D3A1D7E00117463 /* main.m in Sources */,
 				02ACE9B01DC0E2FA0000A268 /* Test5ViewController.m in Sources */,
 				5367ACB11D3F8AAC00824A19 /* Test4ViewController.m in Sources */,
